@@ -9,7 +9,8 @@ var port = 3000 || process.env.port
 
 var mongoose = require('mongoose')  // this is the same as var mongoose = require('mongoose')
 
-const uri = "mongodb+srv://dapo:moronkeji@node-app-8lys0.mongodb.net/expressapp?retryWrites=true";
+
+const uri = "mongodb+srv://Dark_Shadow:123123Merry@expressapp-2gnjk.mongodb.net/test?retryWrites=true";
 
 var options = {
 	reconnectTries : Number.MAX_VALUE,
@@ -39,6 +40,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
  
 // parse application/json
 app.use(bodyParser.json())
+
 
 
 
